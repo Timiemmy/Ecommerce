@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo rm -rf /home/ubuntu/ecommerce/*
+sudo rm -rf /home/ubuntu/Ecommerce/*

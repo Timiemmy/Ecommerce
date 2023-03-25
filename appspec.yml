@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/ecommerce
+    destination: /home/ubuntu/Ecommerce
 permissions:
-  - object: /home/ubuntu/ecommerce
+  - object: /home/ubuntu/Ecommerce
     owner: ubuntu
     group: ubuntu
 hooks:

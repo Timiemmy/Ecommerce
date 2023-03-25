@@ -2,4 +2,4 @@
 
 virtualenv /home/ubuntu/env
 source /home/ubuntu/env/bin/activate
-pip install -r /home/ubuntu/ecommerce/requirements.txt
+pip install -r /home/ubuntu/Ecommerce/requirements.txt

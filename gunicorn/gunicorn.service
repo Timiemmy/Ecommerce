@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=ubuntu
 Group=www-data
-WorkingDirectory=/home/ubuntu/ecommerce
-ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/ecommerce/store/store.sock store.wsgi:application
+WorkingDirectory=/home/ubuntu/Ecommerce
+ExecStart=/home/ubuntu/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/Ecommerce/store/store.sock store.wsgi:application
 
        
 [Install]
